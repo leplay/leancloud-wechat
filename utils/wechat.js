@@ -23,7 +23,7 @@ var conf = {
 var appid = config.get('wechat.appId')
 var secret = config.get('wechat.appSecret')
 
-var tmpPath = './tmp'
+var tmpPath = './.tmp'
 
 function * getToken(expires_in, update) {
 
