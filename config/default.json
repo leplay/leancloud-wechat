@@ -1,0 +1,12 @@
+{
+  "leancloud": {
+    "appId": "",
+    "appKey": "",
+    "masterKey": ""
+  },
+  "wechat": {
+    "appId": "",
+    "appSecret": "",
+    "domain": ""
+  }
+}
