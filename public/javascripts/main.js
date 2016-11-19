@@ -69,7 +69,7 @@ wx.ready(function() {
     wx.chooseImage({
       count: 1,
       sizeType: ['compressed'],
-      sourceType: ['camera'],
+      sourceType: ['camera', 'album'],
       success: function (imageRes) {
         wx.uploadImage({
           localId: imageRes.localIds[0],
